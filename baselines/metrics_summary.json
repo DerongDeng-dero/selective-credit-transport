@@ -1,0 +1,470 @@
+[
+  {
+    "name": "W1_Oracle",
+    "per_func": {
+      "loss_full": {
+        "rmse": 0.654,
+        "bias": -0.0941,
+        "abs_bias": 0.0941,
+        "cov90": 0.9062,
+        "se_rmse": 1.3526,
+        "med_w90": 2.2349
+      },
+      "loss_tight": {
+        "rmse": 0.162,
+        "bias": 0.0301,
+        "abs_bias": 0.0301,
+        "cov90": 0.9219,
+        "se_rmse": 1.1652,
+        "med_w90": 0.5302
+      },
+      "loss_expand": {
+        "rmse": 0.431,
+        "bias": 0.0775,
+        "abs_bias": 0.0775,
+        "cov90": 0.9219,
+        "se_rmse": 1.1267,
+        "med_w90": 1.3524
+      },
+      "delta_loss": {
+        "rmse": 0.3083,
+        "bias": 0.0474,
+        "abs_bias": 0.0474,
+        "cov90": 0.9062,
+        "se_rmse": 1.1158,
+        "med_w90": 0.9284
+      },
+      "mlr_expand": {
+        "rmse": 0.7248,
+        "bias": 0.1102,
+        "abs_bias": 0.1102,
+        "cov90": 0.9219,
+        "se_rmse": 1.1131,
+        "med_w90": 2.1896
+      }
+    },
+    "worst_regime_lf": [
+      "protective_prime_screen",
+      0.9993
+    ],
+    "worst_regime_mlr": [
+      "extrapolated_distress_mix",
+      1.0552
+    ],
+    "regime_lf": {
+      "balanced_expansion": 0.4892,
+      "collinear_bureau_shift": 0.5203,
+      "early_refinance_wave": 0.7,
+      "extrapolated_distress_mix": 0.8169,
+      "heavy_workout_censoring": 0.5868,
+      "protective_prime_screen": 0.9993,
+      "subprime_cliff_surge": 0.5609,
+      "volatility_dispersion_shift": 0.3109
+    },
+    "regime_mlr": {
+      "balanced_expansion": 0.5773,
+      "collinear_bureau_shift": 0.3803,
+      "early_refinance_wave": 0.5656,
+      "extrapolated_distress_mix": 1.0552,
+      "heavy_workout_censoring": 0.6536,
+      "protective_prime_screen": 0.9477,
+      "subprime_cliff_surge": 0.8011,
+      "volatility_dispersion_shift": 0.5689
+    },
+    "repaired_lf_rmse": 0.5538,
+    "repaired_mlr_rmse": 0.6375,
+    "matched_lf_rmse": 0.5872,
+    "foreign_lf_rmse": 1.7225,
+    "foreign_gain": 1.1352
+  },
+  {
+    "name": "W2_Witness",
+    "per_func": {
+      "loss_full": {
+        "rmse": 0.6582,
+        "bias": -0.163,
+        "abs_bias": 0.163,
+        "cov90": 0.8594,
+        "se_rmse": 1.1743,
+        "med_w90": 2.206
+      },
+      "loss_tight": {
+        "rmse": 0.1474,
+        "bias": 0.0487,
+        "abs_bias": 0.0487,
+        "cov90": 0.9219,
+        "se_rmse": 1.2031,
+        "med_w90": 0.5125
+      },
+      "loss_expand": {
+        "rmse": 0.3818,
+        "bias": 0.1097,
+        "abs_bias": 0.1097,
+        "cov90": 0.8906,
+        "se_rmse": 1.1007,
+        "med_w90": 1.2449
+      },
+      "delta_loss": {
+        "rmse": 0.28,
+        "bias": 0.0611,
+        "abs_bias": 0.0611,
+        "cov90": 0.8438,
+        "se_rmse": 1.012,
+        "med_w90": 0.8749
+      },
+      "mlr_expand": {
+        "rmse": 0.6579,
+        "bias": 0.1337,
+        "abs_bias": 0.1337,
+        "cov90": 0.8125,
+        "se_rmse": 1.0172,
+        "med_w90": 2.0473
+      }
+    },
+    "worst_regime_lf": [
+      "extrapolated_distress_mix",
+      0.8113
+    ],
+    "worst_regime_mlr": [
+      "extrapolated_distress_mix",
+      0.9632
+    ],
+    "regime_lf": {
+      "balanced_expansion": 0.7061,
+      "collinear_bureau_shift": 0.7209,
+      "early_refinance_wave": 0.7558,
+      "extrapolated_distress_mix": 0.8113,
+      "heavy_workout_censoring": 0.469,
+      "protective_prime_screen": 0.7741,
+      "subprime_cliff_surge": 0.5294,
+      "volatility_dispersion_shift": 0.3449
+    },
+    "regime_mlr": {
+      "balanced_expansion": 0.6984,
+      "collinear_bureau_shift": 0.5496,
+      "early_refinance_wave": 0.5622,
+      "extrapolated_distress_mix": 0.9632,
+      "heavy_workout_censoring": 0.3814,
+      "protective_prime_screen": 0.6933,
+      "subprime_cliff_surge": 0.6882,
+      "volatility_dispersion_shift": 0.5736
+    },
+    "repaired_lf_rmse": 0.618,
+    "repaired_mlr_rmse": 0.6944,
+    "matched_lf_rmse": 0.608,
+    "foreign_lf_rmse": 1.7935,
+    "foreign_gain": 1.1855
+  },
+  {
+    "name": "NOP_Starter",
+    "per_func": {
+      "loss_full": {
+        "rmse": 4.1407,
+        "bias": -4.0223,
+        "abs_bias": 4.0223,
+        "cov90": 0.0,
+        "se_rmse": 0.0024,
+        "med_w90": 0.0329
+      },
+      "loss_tight": {
+        "rmse": 0.8383,
+        "bias": -0.78,
+        "abs_bias": 0.78,
+        "cov90": 0.0,
+        "se_rmse": 0.006,
+        "med_w90": 0.0164
+      },
+      "loss_expand": {
+        "rmse": 1.9605,
+        "bias": -1.8651,
+        "abs_bias": 1.8651,
+        "cov90": 0.0,
+        "se_rmse": 0.0041,
+        "med_w90": 0.0263
+      },
+      "delta_loss": {
+        "rmse": 1.1387,
+        "bias": -1.0851,
+        "abs_bias": 1.0851,
+        "cov90": 0.0,
+        "se_rmse": 0.0031,
+        "med_w90": 0.0115
+      },
+      "mlr_expand": {
+        "rmse": 3.2761,
+        "bias": -3.1076,
+        "abs_bias": 3.1076,
+        "cov90": 0.0,
+        "se_rmse": 0.0064,
+        "med_w90": 0.0658
+      }
+    },
+    "worst_regime_lf": [
+      "collinear_bureau_shift",
+      4.9587
+    ],
+    "worst_regime_mlr": [
+      "protective_prime_screen",
+      4.3305
+    ],
+    "regime_lf": {
+      "balanced_expansion": 4.0948,
+      "collinear_bureau_shift": 4.9587,
+      "early_refinance_wave": 3.7273,
+      "extrapolated_distress_mix": 4.1222,
+      "heavy_workout_censoring": 4.2407,
+      "protective_prime_screen": 4.2674,
+      "subprime_cliff_surge": 3.1361,
+      "volatility_dispersion_shift": 4.3466
+    },
+    "regime_mlr": {
+      "balanced_expansion": 2.955,
+      "collinear_bureau_shift": 3.8159,
+      "early_refinance_wave": 2.7486,
+      "extrapolated_distress_mix": 3.2345,
+      "heavy_workout_censoring": 3.477,
+      "protective_prime_screen": 4.3305,
+      "subprime_cliff_surge": 2.0899,
+      "volatility_dispersion_shift": 3.0562
+    },
+    "repaired_lf_rmse": 4.2257,
+    "repaired_mlr_rmse": 3.3535,
+    "matched_lf_rmse": 4.2257,
+    "foreign_lf_rmse": 4.2257,
+    "foreign_gain": 0.0
+  },
+  {
+    "name": "Astra_High_Unbounded",
+    "per_func": {
+      "loss_full": {
+        "rmse": 0.48,
+        "bias": -0.0528,
+        "abs_bias": 0.0528,
+        "cov90": 0.9062,
+        "se_rmse": 1.1623,
+        "med_w90": 1.7215
+      },
+      "loss_tight": {
+        "rmse": 0.1035,
+        "bias": -0.0058,
+        "abs_bias": 0.0058,
+        "cov90": 0.875,
+        "se_rmse": 1.0733,
+        "med_w90": 0.3584
+      },
+      "loss_expand": {
+        "rmse": 0.2587,
+        "bias": -0.018,
+        "abs_bias": 0.018,
+        "cov90": 0.9062,
+        "se_rmse": 1.0672,
+        "med_w90": 0.8923
+      },
+      "delta_loss": {
+        "rmse": 0.2003,
+        "bias": -0.0122,
+        "abs_bias": 0.0122,
+        "cov90": 0.875,
+        "se_rmse": 0.9691,
+        "med_w90": 0.6103
+      },
+      "mlr_expand": {
+        "rmse": 0.48,
+        "bias": -0.0155,
+        "abs_bias": 0.0155,
+        "cov90": 0.875,
+        "se_rmse": 0.953,
+        "med_w90": 1.4615
+      }
+    },
+    "worst_regime_lf": [
+      "balanced_expansion",
+      0.688
+    ],
+    "worst_regime_mlr": [
+      "balanced_expansion",
+      0.6748
+    ],
+    "regime_lf": {
+      "balanced_expansion": 0.688,
+      "collinear_bureau_shift": 0.2958,
+      "early_refinance_wave": 0.5327,
+      "extrapolated_distress_mix": 0.4569,
+      "heavy_workout_censoring": 0.3483,
+      "protective_prime_screen": 0.2001,
+      "subprime_cliff_surge": 0.4338,
+      "volatility_dispersion_shift": 0.6636
+    },
+    "regime_mlr": {
+      "balanced_expansion": 0.6748,
+      "collinear_bureau_shift": 0.2311,
+      "early_refinance_wave": 0.5627,
+      "extrapolated_distress_mix": 0.4821,
+      "heavy_workout_censoring": 0.4703,
+      "protective_prime_screen": 0.2334,
+      "subprime_cliff_surge": 0.4008,
+      "volatility_dispersion_shift": 0.5908
+    },
+    "repaired_lf_rmse": 0.5085,
+    "repaired_mlr_rmse": 0.5674,
+    "matched_lf_rmse": 0.4109,
+    "foreign_lf_rmse": 1.7895,
+    "foreign_gain": 1.3786
+  },
+  {
+    "name": "Gemini4_Carbon_Blind",
+    "per_func": {
+      "loss_full": {
+        "rmse": 0.5916,
+        "bias": -0.2134,
+        "abs_bias": 0.2134,
+        "cov90": 0.6406,
+        "se_rmse": 0.5932,
+        "med_w90": 1.1013
+      },
+      "loss_tight": {
+        "rmse": 0.1035,
+        "bias": -0.0186,
+        "abs_bias": 0.0186,
+        "cov90": 0.8906,
+        "se_rmse": 1.1369,
+        "med_w90": 0.3674
+      },
+      "loss_expand": {
+        "rmse": 0.2815,
+        "bias": 0.017,
+        "abs_bias": 0.017,
+        "cov90": 0.8125,
+        "se_rmse": 0.8803,
+        "med_w90": 0.7604
+      },
+      "delta_loss": {
+        "rmse": 0.2402,
+        "bias": 0.0357,
+        "abs_bias": 0.0357,
+        "cov90": 0.7812,
+        "se_rmse": 0.739,
+        "med_w90": 0.5498
+      },
+      "mlr_expand": {
+        "rmse": 0.5914,
+        "bias": 0.0632,
+        "abs_bias": 0.0632,
+        "cov90": 0.7656,
+        "se_rmse": 0.6991,
+        "med_w90": 1.2623
+      }
+    },
+    "worst_regime_lf": [
+      "collinear_bureau_shift",
+      0.7365
+    ],
+    "worst_regime_mlr": [
+      "extrapolated_distress_mix",
+      0.6917
+    ],
+    "regime_lf": {
+      "balanced_expansion": 0.5068,
+      "collinear_bureau_shift": 0.7365,
+      "early_refinance_wave": 0.7164,
+      "extrapolated_distress_mix": 0.5911,
+      "heavy_workout_censoring": 0.5555,
+      "protective_prime_screen": 0.2821,
+      "subprime_cliff_surge": 0.4739,
+      "volatility_dispersion_shift": 0.7245
+    },
+    "regime_mlr": {
+      "balanced_expansion": 0.6227,
+      "collinear_bureau_shift": 0.6885,
+      "early_refinance_wave": 0.6738,
+      "extrapolated_distress_mix": 0.6917,
+      "heavy_workout_censoring": 0.6197,
+      "protective_prime_screen": 0.3857,
+      "subprime_cliff_surge": 0.4345,
+      "volatility_dispersion_shift": 0.5311
+    },
+    "repaired_lf_rmse": 0.6469,
+    "repaired_mlr_rmse": 0.5669,
+    "matched_lf_rmse": 0.6462,
+    "foreign_lf_rmse": 1.6466,
+    "foreign_gain": 1.0004
+  },
+  {
+    "name": "Claude_Sonnet_Blind",
+    "per_func": {
+      "loss_full": {
+        "rmse": 1.3827,
+        "bias": -1.2042,
+        "abs_bias": 1.2042,
+        "cov90": 0.2188,
+        "se_rmse": 0.3083,
+        "med_w90": 1.4057
+      },
+      "loss_tight": {
+        "rmse": 0.1312,
+        "bias": -0.0678,
+        "abs_bias": 0.0678,
+        "cov90": 0.8281,
+        "se_rmse": 0.8212,
+        "med_w90": 0.3481
+      },
+      "loss_expand": {
+        "rmse": 0.4235,
+        "bias": -0.2965,
+        "abs_bias": 0.2965,
+        "cov90": 0.6875,
+        "se_rmse": 0.6544,
+        "med_w90": 0.9135
+      },
+      "delta_loss": {
+        "rmse": 0.3281,
+        "bias": -0.2287,
+        "abs_bias": 0.2287,
+        "cov90": 0.7031,
+        "se_rmse": 0.734,
+        "med_w90": 0.8013
+      },
+      "mlr_expand": {
+        "rmse": 0.9033,
+        "bias": -0.6915,
+        "abs_bias": 0.6915,
+        "cov90": 0.6562,
+        "se_rmse": 0.6039,
+        "med_w90": 1.8059
+      }
+    },
+    "worst_regime_lf": [
+      "collinear_bureau_shift",
+      1.8808
+    ],
+    "worst_regime_mlr": [
+      "collinear_bureau_shift",
+      1.3029
+    ],
+    "regime_lf": {
+      "balanced_expansion": 1.3274,
+      "collinear_bureau_shift": 1.8808,
+      "early_refinance_wave": 1.1745,
+      "extrapolated_distress_mix": 1.0462,
+      "heavy_workout_censoring": 1.316,
+      "protective_prime_screen": 1.212,
+      "subprime_cliff_surge": 0.9462,
+      "volatility_dispersion_shift": 1.851
+    },
+    "regime_mlr": {
+      "balanced_expansion": 0.7462,
+      "collinear_bureau_shift": 1.3029,
+      "early_refinance_wave": 0.6027,
+      "extrapolated_distress_mix": 0.7965,
+      "heavy_workout_censoring": 0.9696,
+      "protective_prime_screen": 1.0838,
+      "subprime_cliff_surge": 0.4458,
+      "volatility_dispersion_shift": 0.981
+    },
+    "repaired_lf_rmse": 1.6388,
+    "repaired_mlr_rmse": 1.0492,
+    "matched_lf_rmse": 1.5212,
+    "foreign_lf_rmse": 1.5659,
+    "foreign_gain": 0.0447
+  }
+]
