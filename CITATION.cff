@@ -6,8 +6,8 @@ type: software
 authors:
   - family-names: "Deng"
     given-names: "Derong"
+    email: "ddeng169@connect.hkust-gz.edu.cn"
     affiliation: "The Hong Kong University of Science and Technology (Guangzhou)"
-    orcid: ""
 repository-code: "https://github.com/DerongDeng-dero/selective-credit-transport"
 license: MIT
 keywords:

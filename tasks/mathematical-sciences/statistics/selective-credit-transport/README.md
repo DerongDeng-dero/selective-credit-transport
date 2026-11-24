@@ -7,8 +7,8 @@ Estimate counterfactual credit losses, policy expansion marginal loss rates, and
 
 | | |
 |---|---|
-| **Author** | DSAA 5002 Contributor (The Hong Kong University of Science and Technology (Guangzhou)) — dsaa5002@hkust-gz.edu.cn |
-| **Profile** | https://github.com/HKUSTGZ-DSAIL |
+| **Author** | Derong Deng (The Hong Kong University of Science and Technology (Guangzhou)) — ddeng169@connect.hkust-gz.edu.cn |
+| **Profile** | https://github.com/DerongDeng-dero |
 | **Domain** | mathematical-sciences / statistics / semiparametric credit-risk and counterfactual policy inference |
 | **Tags** | `credit-risk` `reject-inference` `competing-risks` `censoring` `transfer-learning` `semiparametric-inference` `uncertainty-quantification` |
 | **Expert time estimate** | 28 hours |
